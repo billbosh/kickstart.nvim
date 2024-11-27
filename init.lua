@@ -160,6 +160,9 @@ vim.opt.scrolloff = 10
 -- Tab size
 vim.opt.tabstop = 2
 
+-- Ensure words are not split when line wrapping
+vim.opt.linebreak = true
+
 -- [[ Basic Keymaps ]]
 --  See `:help vim.keymap.set()`
 
